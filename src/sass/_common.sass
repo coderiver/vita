@@ -48,10 +48,40 @@
 // 	+jpg(bla)
 
 
++font("Lato Light", lato-light)
++font("Lato Regular", lato-regular)
++font("Lato Italic", lato-italic)
++font("Lato Medium", lato-medium)
++font("Lato Bold", lato-bold)
++font("Lato Black", lato-black)
+
+=light
+	font-family: "Lato Light", Arial, sans-serif
+=reg
+	font-family: "Lato Regular", Arial, sans-serif
+=italic
+	font-family: "Lato Italic", Arial, sans-serif
+=med
+	font-family: "Lato Medium", Arial, sans-serif
+=bold
+	font-family: "Lato Bold", Arial, sans-serif
+=black
+	font-family: "Lato Black", Arial, sans-serif
+
+
 body
-	font-family: Arial, sans-serif
+	+reg
 	font-size: 12px
-	line-height: 1.4
+	line-height: 1.2
+	letter-spacing: 0.075em 
 
 
 // common blocks
+
+h1, h2, h3, h4, h5, h6, b, strong, em, i, th, label
+	font-weight: normal
+
+a
+	text-decoration: none
+	&:hover
+		text-decoration: none

@@ -1,6 +1,9 @@
 $icons: (0:0)
-$icons: map-merge($icons,(codedby: (X: 0px, Y:-9px, W: 47px, H: 5px, TW: 49px, TH: 14px, IMG: '../img/icons.png')))
-$icons: map-merge($icons,(coderiver: (X: 0px, Y:0px, W: 49px, H: 5px, TW: 49px, TH: 14px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(card: (X: -49px, Y:0px, W: 49px, H: 40px, TW: 98px, TH: 91px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(codedby: (X: -46px, Y:-58px, W: 47px, H: 5px, TW: 98px, TH: 91px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(coderiver: (X: -46px, Y:-49px, W: 49px, H: 5px, TW: 98px, TH: 91px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(pencil: (X: 0px, Y:-49px, W: 42px, H: 42px, TW: 98px, TH: 91px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(zoom: (X: 0px, Y:0px, W: 45px, H: 45px, TW: 98px, TH: 91px, IMG: '../img/icons.png')))
 
 
 // Gets an attribute from the sass map
@@ -17,13 +20,28 @@ $icons: map-merge($icons,(coderiver: (X: 0px, Y:0px, W: 49px, H: 5px, TW: 49px, 
 @mixin s($i)
 	+sprite($i)
 
+.icon-card
+	width: 49px
+	height: 40px
+	background-image: url('../img/icons.png')
+	background-position: -49px 0px
 .icon-codedby
 	width: 47px
 	height: 5px
 	background-image: url('../img/icons.png')
-	background-position: 0px -9px
+	background-position: -46px -58px
 .icon-coderiver
 	width: 49px
 	height: 5px
+	background-image: url('../img/icons.png')
+	background-position: -46px -49px
+.icon-pencil
+	width: 42px
+	height: 42px
+	background-image: url('../img/icons.png')
+	background-position: 0px -49px
+.icon-zoom
+	width: 45px
+	height: 45px
 	background-image: url('../img/icons.png')
 	background-position: 0px 0px
