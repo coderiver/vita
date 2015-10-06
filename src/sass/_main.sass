@@ -95,10 +95,15 @@
 	background: -o-linear-gradient(90deg, rgb(248, 249, 248) 59%, rgb(255, 255, 255) 86%)
 	background: -ms-linear-gradient(90deg, rgb(248, 249, 248) 59%, rgb(255, 255, 255) 86%)
 	background: linear-gradient(180deg, rgb(248, 249, 248) 59%, rgb(255, 255, 255) 86%)
+	padding: 53px 0 0 
+	+r(767)
+		padding: 0
 	&__img
 		text-align: center
 		img
 			max-width: 100% 
+		.steps__text
+			text-align: left
 	&__text
 		text-align: left
 		padding: 20px 0 
@@ -122,6 +127,34 @@
 			color: black
 			font-size: 24px
 			line-height: 1.2 
+
+.information
+	max-width: 920px
+	margin: 0 auto
+	padding: 30px 20px  
+	h3
+		color: #2b80e4
+		+light
+		font-size: 36px
+		text-transform: uppercase
+		line-height: 1
+		margin-bottom: 50px
+	&__text
+		padding-bottom: 20px
+		h4
+			color: #999
+			font-size: 24px
+			text-transform: uppercase
+			+light
+		p
+			+reg
+			color: black
+			font-size: 18px
+			max-width: 790px
+.image
+	max-width: 707px
+	margin: 0 auto
+	position: relative
 			
 .inner
 	max-width: 1400px
@@ -152,9 +185,6 @@
 		font-size: 26px
 		padding: 14px 0 14px 30px 
 .col-form
-	margin-top: 53px
-	+r(767)
-		margin-top: 0
 	&__top
 		text-align: center
 
@@ -349,6 +379,7 @@
 		position: relative
 		display: inline-block
 		margin-bottom: 40px
+		vertical-align: top
 		&:before
 			content: "" 
 			position: absolute
@@ -403,12 +434,14 @@
 		font-size: 38px
 		line-height: 60px  
 		margin-bottom: 70px
+		max-width: 707px
+		margin: 0 auto 
 		+r(991)
 			font-size: 18px
 			color: #666
 			line-height: 1.2
 			margin-bottom: 20px
-			padding: 0 25px 
+
 		
 .box
 	margin-bottom: 20px
