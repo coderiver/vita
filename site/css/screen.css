@@ -147,7 +147,7 @@ a:hover { text-decoration: none; }
 .main__text h4 { margin-bottom: 20px; font-family: "Lato Light", Arial, sans-serif; color: black; font-size: 24px; line-height: 1.2; }
 
 .information { max-width: 920px; margin: 0 auto; padding: 30px 20px; }
-.information h3 { color: #2b80e4; font-family: "Lato Light", Arial, sans-serif; font-size: 36px; text-transform: uppercase; line-height: 1; margin-bottom: 50px; }
+.information h3 { color: #2b80e4; font-family: "Lato Light", Arial, sans-serif; font-size: 36px; text-transform: uppercase; line-height: 1; margin-bottom: 50px; text-align: center; }
 .information__text { padding-bottom: 20px; }
 .information__text h4 { color: #999; font-size: 24px; text-transform: uppercase; font-family: "Lato Light", Arial, sans-serif; }
 .information__text p { font-family: "Lato Regular", Arial, sans-serif; color: black; font-size: 18px; max-width: 790px; }
