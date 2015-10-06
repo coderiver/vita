@@ -142,14 +142,14 @@ a:hover { text-decoration: none; }
 
 .inner { max-width: 1400px; padding: 0 20px 0; margin: 0 auto; position: relative; *zoom: 1; }
 .inner:after { content: " "; display: table; clear: both; }
-@media only screen and (max-width: 768px) { .inner { max-width: 320px; padding: 35px 0 0; } }
+@media only screen and (max-width: 767px) { .inner { max-width: 320px; padding: 35px 0 0; } }
 
 .sticker { position: absolute; top: 152px; left: -135px; width: 483px; font-family: "Lato Light", Arial, sans-serif; color: #2b80e4; font-size: 36px; text-transform: uppercas; padding: 14px 0 14px 65px; background: rgba(255, 255, 255, 0.67); text-align: left; }
 @media only screen and (max-width: 1600px) { .sticker { left: 0; } }
 @media only screen and (max-width: 991px) { .sticker { width: 280px; font-size: 26px; padding: 14px 0 14px 30px; } }
 
 .col-form { margin-top: 53px; }
-@media only screen and (max-width: 768px) { .col-form { margin-top: 0; } }
+@media only screen and (max-width: 767px) { .col-form { margin-top: 0; } }
 .col-form__top { text-align: center; }
 
 .form { float: right; max-width: 425px; width: 100%; background-color: white; border-radius: 4px; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.7); padding: 20px 24px 40px; margin: 0 0 0; position: relative; }
@@ -253,10 +253,10 @@ a:hover { text-decoration: none; }
 .footer .nav li a { color: black; }
 .footer__copy { text-align: center; color: black; font-family: "Lato Bold", Arial, sans-serif; font-size: 14px; line-height: 1; padding: 0 240px; }
 
-@media only screen and (max-width: 768px) { .mob-none { display: none; } }
+@media only screen and (max-width: 767px) { .mob-none { display: none; } }
 
 .mob-visible { display: none; }
-@media only screen and (max-width: 768px) { .mob-visible { display: block; } }
+@media only screen and (max-width: 767px) { .mob-visible { display: block; } }
 
 
 
