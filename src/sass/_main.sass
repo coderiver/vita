@@ -99,13 +99,23 @@
 		text-align: center
 		img
 			max-width: 100% 
+	&__text
+		text-align: left
+		padding: 20px 0 
+		max-width: 707px
+		margin: 0 auto 
+		p
+			font-size: 14px
+			color: black
+			line-height: 1.2 
+			margin-bottom: 35px
 .inner
 	max-width: 1400px
 	padding: 0 20px 0
 	margin: 0 auto
 	position: relative
 	+clr
-	+r(991)
+	+r(768)
 		max-width: 320px
 		padding: 35px 0 0 
 
@@ -120,12 +130,16 @@
 	text-transform: uppercas 
 	padding: 14px 0 14px 65px
 	background: rgba(#fff, 0.67)  
+	text-align: left
 	+r(1600)
 		left: 0
-
+	+r(991)
+		width: 280px
+		font-size: 26px
+		padding: 14px 0 14px 30px 
 .col-form
 	margin-top: 53px
-	+r(991)
+	+r(768)
 		margin-top: 0
 	&__top
 		text-align: center
@@ -333,8 +347,7 @@
 			background-color: #ccc 
 		li
 			display: inline-block
-			vertical-align: top
- 
+			vertical-align: top 
 			color: white
 			+med
 			font-size: 30px
@@ -348,6 +361,12 @@
 			margin: 0 24px 
 			position: relative
 			z-index: 2
+			+r(991)
+				margin: 0 20px
+				width: 50px
+				height: 50px
+				font-size: 24px
+				line-height: 50px 
 			&.is-active
 				background-color: #418eea
 	&__title
@@ -458,6 +477,9 @@
 .info
 	+clr
 	max-width: 639px
+	+r(991)
+		margin-bottom: 20px
+		max-width: 100%
 	&__img
 		float: left
 		width: 256px
@@ -534,9 +556,9 @@
 		padding: 0 240px 
 
 .mob-none
-	+r(991)
+	+r(768)
 		display: none
 .mob-visible
 	display: none
-	+r(991)
+	+r(768)
 		display: block
