@@ -252,6 +252,7 @@ a:hover { text-decoration: none; }
 .footer .nav { float: right; padding: 0; }
 .footer .nav li a { color: black; }
 .footer__copy { text-align: center; color: black; font-family: "Lato Bold", Arial, sans-serif; font-size: 14px; line-height: 1; padding: 0 240px; }
+@media only screen and (max-width: 991px) { .footer__copy { padding: 0; overflow: hidden; text-align: left; } }
 
 @media only screen and (max-width: 767px) { .mob-none { display: none; } }
 
